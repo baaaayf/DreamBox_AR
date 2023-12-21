@@ -1,6 +1,6 @@
 
 $(window).on("deviceorientation resize", function( event ) {
-    if (window.matchMedia("(orientation: landcape)").matches) {
+    if (window.matchMedia("(orientation: landscape)").matches) {
         $('.overlay-portrait').removeClass('active');
         $('.overlay-portrait-modal').removeClass('active');
     }
